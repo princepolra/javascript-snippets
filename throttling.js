@@ -12,7 +12,7 @@ const throttle = (func, limit) => {
     }
 }
 // On Click.
-const onClick = throttle(foo, 10000);
+const onClick = throttle(foo, 1000);
 // Button - Click.
 
 
